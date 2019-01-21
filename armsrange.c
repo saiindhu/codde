@@ -27,7 +27,7 @@ void main()
     }    
     if(e==z)
     {
-        printf("%d",i);
+        printf("%d",e);
     }
     }
     getch();
