@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-    int i,fact=1,n;
+    int i,f=1,n;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        fact=fact*i;
+        f=f*i;
     }
-        printf("%d",fact);
+        printf("%d",f);
     getch();
 }
