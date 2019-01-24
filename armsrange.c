@@ -1,34 +1,39 @@
 #include <stdio.h>
 void main()
 {
-    int i,b,z,l=0,c,r,d=1,e=0,x,y;
+    int i,a,b,z,l=0,c,r,d=1,e=0,x,y;
     scanf("%d%d",&x,&y);
    for(i=x+1;i<y;i++)
    {
        b=i;
+       a=i;
        z=i;
-    while(i)
-    {
-        i=i/10;
+      while(a)
+       {
+        a=a/10;
         l++;
-    }
-    while(b)
-    {
+       }
+       while(b)
+      {
         d=1;
         c=l;
         r=b%10;
-        while(c)
-        {
+          while(c)
+          {
             d=d*r;
             c--;
-        }
+          }
         b=b/10;
         e=e+d;
-    }    
-    if(e==z)
-    {
-        printf("%d",e);
-    }
+       }    
+      if(e==z)
+       {
+        printf("%d ",e);
+       }
+       l=0;
+       e=0;
+       d=1;
+      
     }
     getch();
 }
