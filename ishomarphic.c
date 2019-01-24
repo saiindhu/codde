@@ -2,14 +2,14 @@
 
 void main()
 {
-    char a[50],b[50];
+    char s[50],s1[50];
     int i,j,c=0,c1=0,r=0;
-    scanf("%s %s",a,b);
-    for(i=0;a[i]!=NULL;i++)
+    scanf("%s %s",s,s1);
+    for(i=0;s[i]!=NULL;i++)
     {
         c++;
     }
-    for(i=0;b[i]!=NULL;i++)
+    for(i=0;s1[i]!=NULL;i++)
     {
         c1++;
     }
