@@ -2,15 +2,15 @@
 
 void main()
 {
-    int a[100],max=0,i,n;
+    int a[100],max,i,n;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
-    //}
-    //for(i=0;a[i]!='\0';i++)
-    //{
-        max=0;
+    }
+    max=a[0];
+    for(i=0;i<n;i++)
+    {
         if(a[i]>max)
         {
             max=a[i];
