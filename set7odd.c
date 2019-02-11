@@ -6,11 +6,11 @@ scanf("%d %d",&a,&b);
 s=a+b;
 if(s%2==0)
 {
-printf("odd");
+printf("even");
 }
 else
 {
-printf ("even");
+printf ("odd");
 }
 getch();
 }
