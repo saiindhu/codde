@@ -2,16 +2,16 @@
 
 void main()
 {
-  int a,temp=0,i;
+  int a,flag=0,i;
  scanf("%d",&a);
 for(i=2;i<a;i++)
 {
     if(a%i==0)
     {
-        temp=1;
+        flag=1;
     }
 }
- if(temp==0)
+ if(flag==0)
  {
      printf("Yes");
  }
@@ -21,3 +21,4 @@ for(i=2;i<a;i++)
  }
   getch();
 }
+
